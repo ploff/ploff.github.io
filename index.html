@@ -1,5 +1,38 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <title>the paege</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/7.css" />
+	<style>
+    .violet::before,
+    .violet > .title-bar {
+    background-color: #805ba5;
+    }
+    
+	.window {
+                left: 740px;
+                top: 320px;
+	}
+	</style>
+  </head>
+
   <body>
-    <p>a)</p>
+    <div class="window violet" style="margin: 32px; width: 410px">
+      <div class="title-bar">
+        <div class="title-bar-text">
+          the page.
+        </div>
+
+        <div class="title-bar-controls">
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <p>Welcome here.</p>
+        <p>You will find here: searching... i think so...</p>
+        <div role="progressbar" class="marquee"></div>
+      </div>
+    </div>
   </body>
 </html>
