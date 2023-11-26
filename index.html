@@ -10,18 +10,21 @@
     background-color: #805ba5;
     }
     
-	.window {
-                left: 740px;
-                top: 320px;
-	}
+    .window {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
 	</style>
   </head>
+
 
   <body>
     <div class="window violet" style="margin: 32px; width: 410px">
       <div class="title-bar">
         <div class="title-bar-text">
-          the page.
+          not the best page.
         </div>
 
         <div class="title-bar-controls">
@@ -29,8 +32,8 @@
         </div>
       </div>
       <div class="window-body">
-        <p>Welcome here.</p>
-        <p>You will find here: searching... i think so...</p>
+        <p>welcome.</p>
+        <p>searching for the best page...</p>
         <div role="progressbar" class="marquee"></div>
       </div>
     </div>
